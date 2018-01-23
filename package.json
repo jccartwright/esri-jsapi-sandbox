@@ -1,0 +1,16 @@
+{
+  "name": "esri-jsapi-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jccartwright/esri-jsapi-sandbox.git",
+  "author": "John Cartwright <john.c.cartwright@comcast.net>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "lint": "tslint './app/*.ts'"
+  },
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.6.0",
+    "typescript": "^2.6.2"
+  }
+}
